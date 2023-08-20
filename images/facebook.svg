@@ -1,0 +1,15 @@
+<svg width="13" height="24" viewBox="0 0 13 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="13" height="24" fill="#E5E5E5"/>
+<g id="Frame 1" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="5660" transform="translate(-666 -5530)" fill="white"/>
+<g id="Copyright">
+<rect id="Rectangle 33" x="-666" y="-130" width="1440" height="260" fill="#F46A06"/>
+<path id="Vector" d="M12.0079 13.5L12.6743 9.15656H8.50794V6.33797C8.50794 5.14969 9.08994 3.99141 10.9559 3.99141H12.85V0.293438C12.85 0.293438 11.1312 0 9.48778 0C6.05668 0 3.81395 2.08031 3.81395 5.84625V9.15656H0V13.5H3.81395V24H8.50794V13.5H12.0079Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="5660" fill="white" transform="translate(-666 -5530)"/>
+</clipPath>
+</defs>
+</svg>

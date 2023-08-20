@@ -1,0 +1,462 @@
+/* ---------Бургер меню----------- */
+
+@media screen and (max-width: 890px) {
+  .burger_menu {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    padding-top: 100px;
+    padding-right: 45px;
+    transform: translateY(-150%);
+    transition: transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu.active {
+    transform: translateY(0);
+  }
+
+  .menu_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 0px 100px;
+    gap: 20px;
+  }
+
+  .burger_button {
+    margin: 30px 0px 0px 100px;
+  }
+
+  .burger_menu.active span:nth-of-type(3) {
+    opacity: 0;
+  }
+
+  .burger_menu.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .burger_menu.active span:first-of-type {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+
+/*------- Main -------  */
+
+@media screen and (max-width: 1458px) {
+  .img_burger {
+    width: 482px;
+    height: 550px;
+  }
+  .overlay-image {
+    left: 60%;
+    width: 250.509px;
+    height: 295.082px;
+  }
+}
+
+@media screen and (max-width: 1268px) {
+  .main_img {
+    width: 402px;
+    height: 402px;
+  }
+  .counter_content {
+    width: 50%;
+    margin: auto;
+  }
+  .counter_info {
+    margin: 17px 0px 0px 171px;
+  }
+  #foodImage {
+    width: 553px;
+    height: 400.333px;
+  }
+  .explore_img {
+    width: 300px;
+    height: 200px;
+  }
+  .cards_butt {
+    width: 120px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1148px) {
+  .counter_content {
+    width: 70%;
+  }
+  .block_testimonials {
+    width: 880px;
+    height: 325px;
+  }
+  .questions_subtitle {
+    width: 406px;
+  }
+}
+@media screen and (max-width: 1056px) {
+  .title {
+    font-size: 28px;
+    width: 320px;
+  }
+  .subtitle {
+    width: 350px;
+    height: auto;
+  }
+  #foodImage {
+    width: 453px;
+    height: 300.333px;
+  }
+  .cards_title {
+    font-size: 16px;
+  }
+  .explore_title {
+    width: 754px;
+  }
+  .explore_title {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main_title {
+    width: 439px;
+    font-size: 40px;
+  }
+  .overlay-image {
+    left: 50%;
+  }
+  .explore_cards {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .feedback_title{
+    width: 604px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 890px) {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+  }
+  .main_img {
+    margin-top: 100px;
+  }
+  .counter_info {
+    margin: 17px 0px 0px 131px;
+  }
+  .content_right {
+    margin-top: 50px;
+  }
+  .img_burger {
+    margin-top: 40px;
+  }
+  .overlay-image {
+    top: -12%;
+  }
+  .hr {
+    display: block;
+  }
+  .card_title {
+    width: 517px;
+    height: auto;
+    font-size: 30px;
+  }
+  .card_subtitle {
+    font-size: 14px;
+  }
+  .explore_subtitle {
+    width: 654px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .block_testimonials {
+    width: 750px;
+    height: 325px;
+  }
+  .box_questions {
+    flex-direction: column;
+  }
+  .box_questions:nth-child(2) {
+    align-items: flex-start;
+  }
+  .box_questions:nth-child(1) {
+    align-items: flex-end;
+  }
+  .block_questions {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .counter_info {
+    margin: 17px 0px 0px 125px;
+  }
+  .card_content {
+    padding: 60px 20px 160px 20px;
+  }
+
+  .card_title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .card_subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .explore_cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .block_testimonials {
+    width: 600px;
+    height: 325px;
+  }
+  .testimonials_text {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 726px) {
+  .counter_info {
+    margin: 17px 0px 0px 101px;
+  }
+  .feedback_title{
+    width: 400px;
+  }
+  .feedback_input{
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 608px) {
+  .counter_info {
+    margin: 17px 0px 0px 60px;
+  }
+  .img_burger {
+    width: 382px;
+    height: 500px;
+  }
+  .overlay-image {
+    left: 50%;
+  }
+  .card_title {
+    width: 450px;
+    font-size: 24px;
+  }
+
+  .card_subtitle {
+    font-size: 12px;
+    width: 400px;
+  }
+  .explore_subtitle {
+    width: 454px;
+  }
+  .block_testimonials {
+    width: 450px;
+    height: 325px;
+  }
+  .testimonials_text {
+    width: 400px;
+  }
+  .backet_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+  .backet_title {
+    font-size: 20px;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  .backet_butt {
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .counter_content {
+    width: 40%;
+  }
+  .block_counter {
+    height: auto;
+  }
+  .counter_info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #foodImage {
+    width: 353px;
+    height: 250.333px;
+  }
+  .overlay-image {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .box_questions:nth-child(1) {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 474px) {
+  .main_title {
+    width: 350px;
+    height: auto;
+    font-size: 30px;
+  }
+  .main_subtitle {
+    width: 360px;
+    height: auto;
+  }
+  .main_action {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 100px;
+  }
+  .button_white {
+    margin: 25px 0px;
+  }
+  .main_img {
+    width: 320px;
+    height: 320px;
+  }
+  .counter_info {
+    margin: 17px 0px 0px 40px;
+  }
+  .title {
+    width: 300px;
+    height: auto;
+  }
+  .subtitle {
+    width: 280px;
+    margin-top: 15px;
+  }
+  .img_burger {
+    width: 282px;
+    height: 420px;
+  }
+  .overlay-image {
+    top: -5%;
+    left: 30%;
+  }
+  .card_title {
+    width: 300px;
+    font-size: 24px;
+    font-size: 20px;
+  }
+  .card_subtitle {
+    font-size: 12px;
+    width: 300px;
+    font-size: 10px;
+  }
+  .explore_subtitle {
+    width: 300px;
+  }
+  .block_testimonials {
+    width: 300px;
+    height: 325px;
+  }
+  .testimonials_text {
+    width: 250px;
+    font-size: 14px;
+  }
+  .box_questions {
+    align-items: center;
+    justify-content: center;
+  }
+  .block_questions {
+    max-width: 300px;
+    align-items: center;
+  }
+  .questions_subtitle {
+    width: 350px;
+  }
+  .feedback_title{
+    font-size: 25px;
+    width: 350px;
+  }
+  .block_feedback_input{
+    flex-direction: column;
+    align-items:center;
+  }
+  .feedback_input{
+    margin-bottom: 20px;
+  }
+  .feedback_content{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main_img {
+    width: 302px;
+    height: 302px;
+  }
+  .menu_link {
+    margin: 0px 50px 0px 0px;
+  }
+  .burger_button {
+    margin: 30px 0px 0px 50px;
+  }
+  .counter_info {
+    margin: 17px 0px 0px 20px;
+  }
+  #foodImage {
+    width: 300px;
+    height: 220.333px;
+  }
+  .questions_subtitle {
+    width: 290px;
+  }
+  .feedback_title{
+    font-size: 20px;
+    width: 305px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_title {
+    font-size: 25px;
+    width: 300px;
+  }
+  .main_subtitle {
+    font-size: 12px;
+    width: 250px;
+    margin-left: 20px;
+  }
+  .main_action {
+    margin: 0px 70px;
+  }
+  .main_img {
+    width: 250px;
+    height: 250px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .overlay-image {
+    top: -8%;
+    left: 20%;
+  }
+  .backet_title {
+    font-size: 18px;
+  }
+}
+
