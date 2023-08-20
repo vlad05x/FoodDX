@@ -1,4 +1,4 @@
-# FoodDX - restaurant for your food!
+# FoodDX - restaurant for your favorite  food!
 
 - HTML5
 - CSS3
