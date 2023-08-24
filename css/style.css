@@ -139,6 +139,10 @@ body {
   width: 165px;
   height: 50px;
 }
+#butt_pay::after{
+  content:url(../images/vector_pay.svg);
+  margin-left: 10px;
+}
 .button_orange {
   background: var(--primary, #f46a06);
   color: var(--white, #fff);
@@ -225,7 +229,7 @@ body {
   padding-top: 15px;
 }
 .main_item::before {
-  content: url(/images/Check\ mark.png);
+  content: url(../images/check_mark.png);
   margin-right: 15px;
 }
 .hr {
@@ -256,7 +260,7 @@ body {
   width: 100%;
   height: 402px;
   margin: 100px 0px;
-  background: url(/images/bg_block.png) 50% / cover no-repeat;
+  background: url(../images/bg_block.png) 50% / cover no-repeat;
 }
 .card_content {
   display: flex;
@@ -293,7 +297,7 @@ body {
   justify-content: center;
 }
 .card_video::before {
-  content: url(/images/vector_story.svg);
+  content: url(../images/vector_story.svg);
   margin-right: 10px;
   cursor: pointer;
 }
@@ -362,7 +366,7 @@ body {
   height: 50px;
 }
 .cards_butt::after {
-  content: url(/images/vector_pay.svg);
+  content: url(../images/vector_pay.svg);
   margin-left: 3px;
   width: 16px;
   height: 15.273px;
