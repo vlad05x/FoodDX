@@ -351,12 +351,12 @@
     margin-top: 15px;
   }
   .img_burger {
-    width: 282px;
+    width: 350px;
     height: 420px;
   }
   .overlay-image {
-    top: -5%;
-    left: 30%;
+    top: -15%;
+    left: 36%;
   }
   .card_title {
     width: 300px;
