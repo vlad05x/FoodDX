@@ -260,7 +260,7 @@
           <div class="testimonials__container">
             <div class="testimonials_content">
               <h1 class="testimonials_title">Testimonials</h1>
-                <div class="block_testimonials">
+                <div class="block_testimonials" id="testimonials1">
                   <img
                     id="testimonials_logo"
                     src="./images/face1.png"
@@ -274,11 +274,23 @@
                   <p class="testimonials_subtitle">
                     Chiranjit Hazarika - Web Designer
                   </p>
-                </div>     
+                </div> 
+                <div class="block_testimonials" id="testimonials2">
+                  <img
+                    id="testimonials_logo"
+                    src="./images/Том Харди_ аватарки мужские - SY.jpg" style="border-radius: 50px;"
+                    alt="logo_face"
+                  />
+                  <p class="testimonials_text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, est iste? Praesentium a in dolorum libero hic, deserunt reprehenderit expedita totam, incidunt molestias nulla, cupiditate quas? Est nulla autem molestiae."
+                  </p>
+                  <p class="testimonials_subtitle">
+                    Tom Hardy - Actor
+                  </p>
+                </div>         
                 <div class="block_navigation">
-                  <div class="navigation"></div>
-                  <div class="navigation navigation_gray"></div>
-                  <div class="navigation navigation_gray"></div>
+                  <div class="navigation navigation_gray" id="back"></div>
+                  <div class="navigation navigation_gray" id="next"></div>
                 </div>
             </div>
             </div>
@@ -367,6 +379,23 @@
         menu.classList.toggle("active");
       });
 
+      const back = document.getElementById('back');
+      const next = document.getElementById("next");
+      const testimonials1 = document.getElementById("testimonials1");
+      const testimonials2 = document.getElementById("testimonials2");
+
+      next.addEventListener("click", () => {
+        testimonials1.style.display = "none";
+        testimonials2.style.display = "flex";
+        next.style.backgroundColor = "white";
+        back.style.backgroundColor = "rgba(255, 255, 255, 0.3)";
+      });
+      back.addEventListener("click", () => {
+        testimonials1.style.display = "flex";
+        testimonials2.style.display = "none";
+        back.style.backgroundColor = "white";
+        next.style.backgroundColor = "rgba(255, 255, 255, 0.3)";
+      });
     </script>
   </body>
 </html>

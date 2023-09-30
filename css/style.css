@@ -437,7 +437,7 @@ body {
   font-weight: 700;
   line-height: 33px;
   margin-top: 20px;
-}
+} 
 
 .block_navigation {
   margin: 40px auto;
@@ -453,6 +453,9 @@ body {
 }
 .navigation_gray {
   background-color: rgba(255, 255, 255, 0.3);
+}
+#testimonials2{
+  display: none;
 }
 /*------- Questions -------  */
 .row_questions {
